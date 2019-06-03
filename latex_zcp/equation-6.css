@@ -1,0 +1,99 @@
+/* The default text style used on every page */
+body {
+	padding:0;
+	margin:0; 
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+}
+
+.wrap { margin:0 auto; max-width:1020px; min-width:600px; margin-left:170px; }
+
+p { margin:20px 0; }
+
+#advert { width:160px; height:600px; position:absolute; left:5px; top:5px; }
+
+#language { position:absolute; width:32px; font-size:1px; line-height:1px; height:19px; overflow:hidden; }
+#language img { width:30px; height:17px; padding:0; margin:1px; border:1px solid #666666 }
+
+#hover { padding:2px; position:absolute; display:none; z-index:50; background-color:#FFFFCC; border:1px solid #999999; }
+
+#input { margin:0 auto; text-align:center; }
+#preview { margin:0 auto; margin-top:10px; text-align:center; z-index:100; position:relative; }
+
+.top { margin:0 auto; padding:2px 0; width:95%;  }
+.bottom { border-bottom:1px solid #9a9a9a; }
+
+.toolbar_wrapper { text-align:center; }
+.toolbar { position:relative; padding-top:2px; }
+.panel { display:inline-block; padding:0px 3px; overflow:hidden; vertical-align:top; }
+
+a, a:visited { color:#280092; text-decoration:none; }
+a:visited:hover, a:link:hover { color: #ff6501; text-decoration:underline }
+a img { border:0 none; }
+
+#latex_formula { height:100px; font-size:12pt; border:1px solid #8FB6BD; width:95% }
+#latex_formula:focus { background-color:#FFFFCC; }
+
+#intro { position:absolute; margin-left:30px; color:#FF6600; font-size:16px; }
+#latex_copy
+{ float:right;
+  position:relative;
+}
+#latex_copy img { position:absolute; }
+
+#equationcomment { margin:10px; }
+#download { font-size:10px; color:#666666;  }
+#equationview { margin:10px; }
+#eqcoderaw { width:400px; font-size:8pt; }
+
+.footer { 
+  position:absolute; bottom:0;
+  width:85%;
+  font-size:11px; 
+  margin:0 auto; max-width:750px; min-width:700px;
+	z-index:1;
+}
+#fleft { float:left; margin-left:20px; text-align:left; width:100px; }
+#fright { float:right; width:100px; margin-top:15px; margin-right:15px; text-align:center; }
+#fcenter {  width:450px; margin:auto; }
+#fcenter a { color:#000066; }
+
+.yellowbox { width:430px; border:1px solid #dddddd; background-color:#FFFFCC; padding:5px; margin:5px auto; }
+
+#toolbar_example { clear:left; }
+
+form { border:0; padding:0; margin:0; }
+
+select 
+{
+	font-family:"lucida grande", tahoma, verdana, arial, sans-sarif;
+  font-size:11px;
+	background-color:#FFFFFF;
+	border:1px solid #8FB6BD;
+	height:18px;
+}
+
+/* ------- Button formating ------ */
+	
+.bluebutton, .lightbluebutton, .greybutton {
+  border-style: solid;
+	border-width:1px;
+  border-top-color: #D9DFEA;
+  border-left-color: #D9DFEA;
+  border-bottom-color: #0e1f5b;
+  border-right-color: #0e1f5b;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif; 
+  text-align: center; 
+	cursor:pointer;
+	/*cursor:hand;*/
+	padding:1px 4px;
+	margin:0;
+}
+
+.lightbluebutton { background-color:#4068AE; }
+.bluebutton { background-color:#003794; }
+.greybutton { background-color:#888888; }
+.orange { color: #FF6600; }
