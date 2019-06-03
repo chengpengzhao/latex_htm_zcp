@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# LaTeX 公式编辑 with MathJax by zcp
 
-You can use the [editor on GitHub](https://github.com/chengpengzhao/latex_htm_zcp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## [MathJax](https://www.mathjax.org/)
+## [codecogs](https://www.codecogs.com/latex/eqneditor.php)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+众所周知mathjax能实现html中的公式显示，很多人在博客中都有用到，并且它的example中可以实时显示你所输入的LaTeX公式，在初学LaTeX排版时实时显示可谓非常重要(每次都要编译一下实在太繁琐)。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+同时网上有一个在线LaTeX公式编辑器，提供了许多符号的命令，方便引用，缺点时受网络影响有时很不稳定，而且有广告- -
 
-```markdown
-Syntax highlighted code block
+于是我把上述两者的优势结合做了个本地的LaTeX公式Htm编辑器，自我使用体验极佳。
 
-# Header 1
-## Header 2
-### Header 3
+​																——2019.06
 
-- Bulleted
-- List
+##用法
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chengpengzhao/latex_htm_zcp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. 打开**latex_zcp**文件夹
+2. 双击 **LaTeX 公式编辑 with MathJax by zcp.htm**
+3. 开心的输入公式吧~
